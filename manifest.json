@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spotify translator",
+  "version": "0.1.0",
+  "description": "Lateral blog post demo extension",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["bundle.js"],
+      "matches": ["https://open.spotify.com/lyrics"]
+    }
+  ]
+}
